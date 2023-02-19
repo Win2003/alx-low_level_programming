@@ -1,12 +1,13 @@
 #include <stdio.h>
-/**
-*main - prints exactly "Programming is like building a multilingual puzzle
-*followed by newline
-*Return - Always 0 (Successful)
-*/
 
+/**
+ * main: This is the entry point of the program.
+ * purpose of program: To print exactly "Programming is like building a
+ * multilingual puzzle using the puts function.
+ * result = 0: Successful execution
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-		result 0;
+	result 0;
 }
