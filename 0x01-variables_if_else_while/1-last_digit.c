@@ -4,12 +4,13 @@
 
 /**
  * main - Entry point of program
- * purpose of program: To determine last digit of variable
+ * purpose of program: To determine the last digit of a number
  * Return: Always 0 (Successful)
  */
 int main(void)
 {
-	int n, m;
+	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -18,13 +19,13 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n,m);
 	}
-	else if (m > 0)
+	else if (m == 0)
 	{
-		printf("Last digit of %d is %d and is zero\n", n,m);
-	}	
-	else if (m < 6 && m != 0)
+		printf("Last digit of %d is %d and is 0\n", n,m);
+	}
+	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n,m);
+		printf("Last digit of %d is %d and is less than 6 and not 0", n,m);
 	}
 	return (0);
 }
