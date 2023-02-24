@@ -4,11 +4,11 @@
  * int mul(int a, int b)
  * @a: the number to be multiplied
  * @b: the number to be multiplied with
- * Return: 0 (Successful)
+ * Return: mul (Successful)
  */
 int mul(int a, int b)
 {
-	a * b;
+	mul = a * b;
 	_putchar('\n');
-	return (0);
+	return (mul);
 }
