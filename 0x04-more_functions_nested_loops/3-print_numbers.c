@@ -11,6 +11,7 @@ void print_numbers(void)
 		while ( A <= '9')
 		{
 			_putchar(A);
+			A++
 		}
 		_putchar('\n');
 }
