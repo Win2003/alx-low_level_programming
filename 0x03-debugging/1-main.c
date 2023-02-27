@@ -2,7 +2,7 @@
 
 /**
  * main - To cause an infinite loop
- * Return: 0
+ * Return: 0 (Successful)
  */
 
 int main(void)
@@ -17,8 +17,8 @@ int main(void)
 	{
 		putchar(i);
 	}
-	/* Because i is always 0, the value 0 will be printed to infinity */
-	printf("Infinite loop avoided! \\o/\n");
+
+	printf("Infinite loop avoided! \n");
 
 	return (0);
 }
