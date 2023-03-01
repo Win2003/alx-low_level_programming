@@ -1,21 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- * purpose: To print lowercase alphabet exempting q and e
- * Return: (0) always
+ * main - Entry point of the program
+ * purpose: To print lowercase alphabets exempting 'q' and 'e'
+ * Return: (0) Always
  */
 int main(void)
 {
 	char c = 'a';
 
-	while ((c <= 'z') && (c != 'q' && 'e'))
+	while (c <= 'z')
 	{
+		if (c == 'e' || c == 'q')
+		{
+			c++;
+			continue;
+		}
 		putchar(c);
 		c++;
 	}
 	putchar('\n');
 
-	return (0);
-}
+		return (0);
+}	
 
