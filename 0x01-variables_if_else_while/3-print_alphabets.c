@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point of program
- * purpose: To print both uppercase and lowercase alphabet
+ * purpoe: TO print out uppercase and lowercase alphabets
  * Return: 0 (Always)
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(c);
 	}
-	
+
 	for (n = 'A'; n <= 'Z'; n++)
 	{
 		putchar(n);
