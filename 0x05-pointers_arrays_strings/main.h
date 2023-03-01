@@ -1,2 +1,2 @@
-_putchar(char);
+int_putchar(char);
 void reset_to_98(int *n);
