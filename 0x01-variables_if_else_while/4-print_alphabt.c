@@ -3,7 +3,7 @@
 /**
  * main - Entry point of program
  * purpose: To print lowercase alphabet exempting q and e
- * Return: Always 0
+ * Return: Always (0)
  */
 int main(void)
 {
@@ -16,7 +16,6 @@ int main(void)
 			c++;
 			continue;
 		}
-		
 		putchar(c);
 		c++;
 	}
@@ -24,4 +23,3 @@ int main(void)
 
 	return (0);
 }
-
