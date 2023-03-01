@@ -2,23 +2,19 @@
 
 /**
  * main - Entry point of program
- * purpose: To print all possible combinations of single digit
+ * purpose: To print possible combinations of numbers
  * Return: Always (0)
  */
 int main(void)
 {
-	int a;
-	int b;
+	int a = 48;
 
-	for (a = 48; a <= 57; a++)
+	while (a <= 57)
 	{
-		for (b = 48; b <= 57; b++)
-		{
-			putchar(a);
-			putchar(b);
-		}
+		putchar(a);
 		putchar(',');
 		putchar(' ');
+		a++;
 	}
-	return (0);
+	putchar('\n');
 }
