@@ -2,13 +2,15 @@
 
 /**
  * print_line - To draw a straight line in the terminal
- * Return: void
+ * @n: the number to determine how long the line will be
+ * Return: nothing
  */
 void print_line(int n)
 {
-	int i;
+	int m;
 
-	for (i = 0; i <= n; i++)
+	m = 1;
+	while (m <= n)
 	{
 		if (n > 0)
 		{
