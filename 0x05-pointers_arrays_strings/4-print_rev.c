@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-rev - To print the sting in reverse form
+ * print_rev - To print the sting in reverse form
  * @s: the string to be printed
  * Return: nothing
  */
