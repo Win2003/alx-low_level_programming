@@ -7,11 +7,13 @@
  */
 void print_rev(char *s)
 {
-	while (*s != '\0')
+	int a = 0
+
+	while (a >= 0)
 	{
 		s++;
 	}
-	while (*s != '\0')
+	while (*s >= 32)
 	{
 		_putchar(*s);
 		s--;
