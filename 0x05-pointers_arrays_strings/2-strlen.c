@@ -7,5 +7,13 @@
  */
 int _strlen(char *s)
 {
-	char f[];
+	int g;
+	g = 0;
 
+	while (*s != '\0')
+	{
+		s++;
+		g++;
+	}
+	return (g);
+}
