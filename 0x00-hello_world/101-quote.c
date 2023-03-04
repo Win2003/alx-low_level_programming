@@ -13,6 +13,7 @@ int main(void)
 	while (*d != '\0')
 	{
 		putchar(*d);
+		d++;
 	}
 	putchar('\n');
 }
