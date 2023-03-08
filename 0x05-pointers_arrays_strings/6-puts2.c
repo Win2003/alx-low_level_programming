@@ -5,9 +5,7 @@
  * @str: The string to be printed
  * Return: nothing
  */
-void puts2(char *str);
-{
-	while (*str != '\0')
+void puts2(char *str
 	{
 		_putchar(str);
 		str = str + 2;
